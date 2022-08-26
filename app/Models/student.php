@@ -13,6 +13,6 @@ class student extends Model
 
     public function kelas()
     {
-        return $this->belongsTo(kelas::class);
+        return $this->belongsTo(kelas::class,);
     }
 }
